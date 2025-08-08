@@ -7,7 +7,7 @@ import { useAuth } from '../../../../src/contexts/AuthContext';
 import { useAppContext } from '../../../../src/contexts/AppContext';
 import { useOrchestrator } from '../../../../src/hooks/useOrchestrator';
 import { modelModalStyles } from './ModelModalStyles';
-import { getProviderIcon, getProviderColor, getTierBadge } from '../../../../src/utils/modelUtils';
+import { getProviderIcon, getProviderColor, getTierBadge } from '../../../../utils/modelUtils';
 
 // UPDATED: Simplified props interface - removed image model support
 interface ModelsCardProps {
